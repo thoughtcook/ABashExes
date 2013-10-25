@@ -1,19 +1,21 @@
 #!/bin/bash
 echo "Record Date and time, the online users, and uptime."
 
-rm -fr loginfo.log
+LOGFILE=~/Documents/sys.log
 
-echo "==================date&time=====================" >> loginfo.log
-date >> loginfo.log
+rm -fr $LOGFILE
 
-echo >> loginfo.log
+echo "==================date&time=====================" >> $LOGFILE
+date >> $LOGFILE
 
-echo "=============The users online====================" >> loginfo.log
+echo >> $LOGFILE
 
-who >> loginfo.log
+echo "=============The users online====================" >> $LOGFILE
 
-echo >> loginfo.log
+who >> $LOGFILE
 
-echo "=============The system uptime===================" >> loginfo.log
-uptime >> loginfo.log
+echo >> $LOGFILE
+
+echo "=============The system uptime===================" >> $LOGFILE
+uptime >> $LOGFILE
 
