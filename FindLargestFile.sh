@@ -1,6 +1,8 @@
 #! /bin/bash
 # Find the largest file in a directory using a recrusive way.
 
-FILEDIR=/usr/src/linux
+FILEDIR=/usr/src/linux/Documentation
 
-du -ach | sort -n | head -n 5
+cd $FILEDIR
+
+ls -l | awk '{print $5, $9}' | sort -n -r | head -n 5
