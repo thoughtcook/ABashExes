@@ -1,0 +1,15 @@
+------------------------------------------------------------------
+----------------------------File Index----------------------------
+579.sh--------------Find the smallest number that nr%5=3 && nr%7=4 && nr%9=5
+ArchCase.sh---------Output what type of machine type this shell works on
+BoxFastConfig.sh----Fast config the initiation of a box bootimage.
+fileinfo.sh---------usage of whatis
+FindLargestDir.sh---Find dir that consumes the most memory
+FindLargestFile.sh--Find largest file.
+formaterr.sh--------Usage of printf and error
+foronetwothree.sh---Usage of for loop
+forwith2para.sh-----Usage of for loop with 2 parmeters
+globbing.sh---------Globbing: filename expansion
+loginfo.sh----------Record Date and time, online users and uptime, Usage of >>
+printf.sh-----------Usage of printf
+wc-l.sh-------------Usage of wc -l
